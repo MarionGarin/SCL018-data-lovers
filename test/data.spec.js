@@ -9,7 +9,9 @@ const data = [ //se establece esta mini data para testear las funciones. Sirve p
 ]
 //Se han removido las comillas en el rt_score 100 porque en la data oficial igual se hizo así, para que funcione sort en ese caso.
 
+
 describe('tests for sortData', () => { //Describe es una palabra reservada que da inicio a un bloque o conjunto de pruebas relacionadas.
+
   //En este caso, está comprobando la función sortData y dentro de él pueden chequearse varios casos, que comienzan con "it.
 
     it('is a function', () => { //it es el método que se encarga de ejecutar la prueba (también puede ser "test")

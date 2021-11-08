@@ -48,6 +48,9 @@ const drawCard = (films) => {
   return `
   <section class="movieCard">
   
+
+
+  
     
         <img class= "moviePoster" alt="Studio Ghibli film's poster" src="${films.poster}">
         <figcaption class="movieName">${films.title}</figcaption>
@@ -111,11 +114,15 @@ filterSelected.addEventListener("change", (event) => {
   const chosenFilter = filterData(newFilms, event.target.value);
   const print = (newFilms) => {
     displayMovies(newFilms);
+    console.log(chosenFilter);
   };
 
+
   print(chosenFilter);
+ 
 });
 */
+
 
 
 /* FUNCIÓN QUE EXTRAE PERSONAJES FEMENINAS

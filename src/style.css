@@ -10,6 +10,14 @@ header {
   height          : 15vh; /*view-height es un porcentaje del alto de la página*/
   width           : 100%;
 }
+/*.container {
+  display: flex;
+  align-items: stretch;
+}
+*/
+.checked {
+  color: orange;
+}
 
 #logo {
   
@@ -292,6 +300,11 @@ header {
   color      : cornsilk;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size  : 100%;
+}
+.movieScore {
+  color:cornsilk;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
 }
 
 footer {

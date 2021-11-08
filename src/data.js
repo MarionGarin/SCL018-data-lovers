@@ -27,8 +27,10 @@ export const sortData = (newFilms, sortBy, sortOrder) => {
 
 
 export const filterData = (newFilms, director) => {
+
   
   return newFilms.filter(newFilms => newFilms.director === director);
+
 
     //también funciona: return films.director.includes("Hayao Miyazaki");
   
