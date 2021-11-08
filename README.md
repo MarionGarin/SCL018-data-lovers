@@ -120,7 +120,7 @@ distribución de los elementos.
 
 5. TESTEOS DE USABILIDAD
 Durante nuestros testeos de usabilidad recibimos el siguiente feedback de nuestras usuarias:
-1.- Nos sugirieron que nuestros botones selectores debían ser más notorios.
+1.- Nos sugirieron que nuestros botones selectores fueran más notorios.
 2.- El slider tuvo buena acogida entre nuestras usuarias.
 
 

@@ -1,89 +1,84 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <!--meta información para ajustar página al ancho del viewport y fijar el tamaño inicial del visualización al cargar-->
-
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ghibli</title>
-  <link rel="stylesheet" href="style.css" />
-
+  <head>
+   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--meta información para ajustar página al ancho del viewport y fijar el tamaño inicial del visualización al cargar-->
+   <title>Ghibli Colection  </title>
+   <link rel="stylesheet" href="style.css" />
+   <!--link a css-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--link a estrella, que se llama en Template String del mail-->
+  <link rel="shortcut icon" href="imágenes/icon.png">
+ <!--link de ícono-->  
 </head>
 
-<body>
-  <header>
+  <body>
+    <header>
 
-    <img id="logo" src="logo.png" alt="logo del studio ghibli">
-    <h2 id= "title">Catálogo de películas | La colección completa</h2>
-    <nav>
-    </nav>
-
-  </header>
-
-  <main>
-
-
-    <div class="imageContainer"></div>
-
-    <div>
-        <div class="slider fade">
-        <img class="picture" src="mononoke.png" alt="princesa mononoke con lanza en su mano">
-        <div class="text">"Cualquier mujer es tan capaz de ser una heroína como un hombre lo es de ser un héroe." -
-        Miyazaki</div>
+      <p id= "title">THE STUNNING WORK OF HAYAO MIYAZAKI</p>
+      <img id="logo" src="imágenes/logo.png" alt="Studio Ghibli’s Totoro shaped logo">
+   
+    </header>
+  
+    <main>
+      <section class="imageContainer">
+      <div class="slider fade">
+        <img class="picture" src="imágenes/mononoke.png" alt="princesss mononoke holding a spear">
+        <div class="text">"Any woman is just as capable of being a hero as any man." - Hayao 
+          Miyazaki</div>
         </div>
 
+     
         <div class="slider fade">
-        <img class="picture" src="chihiro.jpg" alt="princesa mononoke con lanza en su mano">
-        <div class="text">"Cualquier mujer es tan capaz de ser una heroína como un hombre lo es de ser un héroe." -
-        Miyazaki</div>
-        </div>
+        <img class="picture" src="imágenes/chihiro.jpg" alt="surprised girl holding a spear">
+        <div class="text">"Any woman is just as capable of being a hero as any man." - Hayao
+          Miyazaki</div>
+      </div>
 
-        <div class="slider fade">
-        <img class="picture" src="kiky.jpg" alt="princesa mononoke con lanza en su mano">
-        <div class="text">"Cualquier mujer es tan capaz de ser una heroína como un hombre lo es de ser un héroe." -
-        Miyazaki</div>
-        </div>
-
-    </div>
-
-    <div style="text-align:center">
-         <span class="dot"></span>
-         <span class="dot"></span>
-         <span class="dot"></span>
-    </div>
-
-
-    <section class="selectors">
-
-        <select class="combo-box-order">
-        <option value=" ">Ordenar por</option>
-        <option value="title">Título</option>
-        <option value="rt_score">Mejor puntuadas</option>
-        <option value="release_date">Año de lanzamiento</option>
-        </select>
-
-        <select class="combo-box-filter">
-        <option value=" ">Filtrar por</option>
-        <option value="Hayao Miyazaki">Dirigidas por Hayao Miyazaki</option>
-       <!-- <option value="gender">Personaje femenino</option>-->
-        </select>
-
+     
+      <div class="slider fade">
+        <img class="picture" src="imágenes/kiky.jpg" alt="girl with a cat on her shoulder">
+        <div class="text">"Any woman is just as capable of being a hero as any man." - Hayao
+          Miyazaki</div>
+      </div>
      </section>
 
+      <section>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      </section>
+     <!--span es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.
+      Es como el div, pero el div es un contenedor en bloque. Ambos están desactualizados -->
 
-    <section id="posterFilms"></section>
+      <section class="selectors">
 
-  </main>
+      <select class="combo-box-order">
+        <option value="" disabled selected>SORT BY:</option>
+        <option value="title">Title</option>
+        <option value="rt_score">Best Scored</option>
+        <option value="release_date">Release Year</option>
+      </select>
 
-  <footer>
-    <p>Todos los derechos reservados ®</p>
-  </footer>
+      <select class="combo-box-filter">
+        <option value="" disabled selected>FILTER BY</option>
+        <option value="Hayao Miyazaki">Directed by Hayao Miyazaki</option>
+        
+       
+      </select>
+
+      </section>
+
+      <section id="posterFilms"></section>
+  
+    </main>
+    <footer>
+    <p>Todos los derechos reservados ® | Developers: Carolina García - Marión Garín - Camila Olivares.</p>
+    </footer>
 
 
   <script src="main.js" type="module"></script>
-
-
-</body>
-
+  </body>
 
 </html>
