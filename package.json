@@ -22,23 +22,5 @@
     "jest": "^27.0.1",
     "opener": "^1.5.1",
     "serve": "^12.0.0"
-<<<<<<< Updated upstream
   }
-=======
-  },
-  "description": "###\tINTRODUCCIÓN",
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/camilaOlivaresR/SCL018-data-lovers.git"
-  },
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/camilaOlivaresR/SCL018-data-lovers/issues"
-  },
-  "homepage": "https://github.com/camilaOlivaresR/SCL018-data-lovers#readme"
->>>>>>> Stashed changes
 }
