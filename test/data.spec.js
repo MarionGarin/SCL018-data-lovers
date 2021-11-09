@@ -56,7 +56,7 @@ describe('tests for sortData', () => {
     ]
 
     expect(sortData(data, 'rt_score', 'rt_score')).toEqual(result);
-
+//this test uses three parameters because ´rt_score" is used as SortBy and SortOrder in the original function
   });
 
 
